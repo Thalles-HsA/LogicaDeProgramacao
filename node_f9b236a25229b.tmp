@@ -1,0 +1,22 @@
+function addBinary(a,b) {
+
+    let soma = a + b // 14 -> 7
+    let resto = 0
+    let decimal = [] // 0, 1, 1, 1
+    
+    while (soma > 2 ) {
+
+        if(resto = soma % 2 === 0) {
+            resto = Math.trunc(soma) % 2
+            decimal.push(resto)
+            soma = soma / 2
+        }
+        
+    }
+
+    return decimal
+
+}
+
+console.log(addBinary(5, 9))
+
