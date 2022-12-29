@@ -1,3 +1,5 @@
+// Retornar a somas dos número primos até o numero recebido em "num"
+
 const main = (num) => {
     let numeros = []
 
@@ -19,4 +21,6 @@ const main = (num) => {
     return somaPrimos;
   }
 
-  console.log(main(5));
+  // retorna 41
+
+  console.log(main(15));
