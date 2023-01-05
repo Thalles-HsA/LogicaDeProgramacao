@@ -1,0 +1,152 @@
+body {
+    margin: 1em;
+    font-family: 'arimo', sans-serif;
+    text-align: center;
+    color: #231f20;
+}
+
+.header{
+    position: relative;
+    display: inline-block;
+}
+
+.header__imagem {
+    width: 40em ;
+}
+
+.header__titulo {
+    width: 10.625em;
+    position: absolute;
+    right: 1.25em;
+    top: 2.5em;
+    text-align: right;
+    color: #fff;
+}
+
+.header__titulo-edicao{
+    margin-top: 1em;
+    font-size: 0.6em;
+}
+
+.section-primaria{
+    width: 35em;
+    margin: auto;
+    position: relative;
+}
+
+.banner-principal__imagem{
+    margin-bottom: 1.5em;
+}
+
+.banner-principal__titulo {
+    font-size: 1.5em;
+    text-align: left;
+    margin-bottom: 0.3em;
+}
+
+.banner__descricao {
+    text-align: left;
+    color: #747879;
+    line-height: 1.3;
+    font-size: 0.9em;
+}
+
+.separador-section {
+    width: 17.5em;
+    height: 0.25em;
+    background: linear-gradient(121.86deg, #e94929 20%, #7b54a7 97.21%);
+    position: absolute;
+    left: 0;
+}
+
+.section-secundaria{
+    display: flex;
+    width: 35em;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+.section-secundaria__container1, .section-secundaria__container2 {
+    width: 17,5em;
+    text-align: left;
+    margin-top: 3em;
+    position: relative;
+}
+
+.section-secundaria__container1{
+    margin-right: 0.625em;
+}
+
+.banner-secundario__imagem {
+    margin-bottom: 1em ;
+    width: 16.875em;
+}
+
+.banner-secundario__titulo{
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.separador-section__secundario1, .separador-section__secundario2 {
+    width: 10em;
+    height: 0.25em;
+    position: absolute;
+    left: 0;
+}
+
+.separador-section__secundario1 {
+    background: linear-gradient(121.86deg, #76c6cf 20%, #675ea5 97.21%);
+}
+.separador-section__secundario2 {
+    background: linear-gradient(121.86deg, #74c7cd 20%, #38b389 97.21%);
+}
+.fonte {
+    font-size: 0.75em;
+    font-style: italic;
+    color: #b1b2b1;
+    text-align: left;
+    margin-top: 1em;
+}
+
+.footer {
+    font-size: 0.75em;
+    color: #646769;
+    margin-top: 4em;
+}
+
+.footer__imagem {
+    width: 53.3333333em;
+}
+
+.footer__descricao {
+    margin-top: 1.5em;
+}
+
+@media screen and (max-width: 640px){ 
+
+body {
+    font-size: 12px;
+}
+
+}
+
+@media screen and (max-width: 500px){ 
+
+body {
+    font-size: 10px;
+}
+
+.section-primaria {
+    margin: auto;
+}
+
+.header__imagem {
+    width: 36em ;
+}
+    
+.footer__imagem {
+    width: 49em;
+}
+    
+}
