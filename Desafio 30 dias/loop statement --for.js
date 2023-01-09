@@ -1,0 +1,23 @@
+function pickIt(arr){
+  
+    var odd=[],even=[];
+    
+    for (let i = 0; i < arr.length; i++){
+
+      if(i % 2 == 0) {
+        
+        odd.push(arr[i])
+        
+      } else {
+        
+        even.push(arr[i])
+      }
+    }
+    
+    
+    return [odd,even];
+  }
+
+  let arr = [1,2]
+
+  console.log(pickIt(arr))
