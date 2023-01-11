@@ -9,4 +9,6 @@ let arrTeste = ["abcd","abcde","abc"]
 
 console.log(cutIt(arrTeste))
 
+
+
   
