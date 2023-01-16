@@ -22,4 +22,4 @@ var humanYearsCatYearsDogYears = function(humanYears) {
 
   }
 
-  console.log(humanYearsCatYearsDogYears(4))
+  console.log(humanYearsCatYearsDogYears(2))

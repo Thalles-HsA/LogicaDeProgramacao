@@ -1,6 +1,6 @@
 function shortcut (string) {
 
-    return string.replaceAll(/[aeiou]/, '')
+    return string.replace(/[aeiou]/g, "")
 }
 
   console.log(shortcut('AAaabbBBeeEEiiII'))

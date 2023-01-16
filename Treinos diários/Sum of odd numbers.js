@@ -34,8 +34,6 @@ function rowSumOddNumbers(n) {
 
 }
 
-    console.log(rowSumOddNumbers(42))
-
     //formula super facil de fazer 
 
 function rowSumOddNumbers2(n) {

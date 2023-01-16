@@ -4,15 +4,16 @@ function addBinary(a,b) {
     let acc = []
     
     while (soma >= 2 ) { 
-            acc.push(Math.trunc(soma) % 2)
-            soma /=  2
+        acc.push(Math.trunc(soma) % 2)
+        soma /=  2
     }
 
     acc.push(Math.trunc(soma))
+
     let binario = acc.reverse().join('')
   
     return binario
-
+    
 }
 
 
